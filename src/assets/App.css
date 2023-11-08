@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+}
+.formInput{
+ width: 500px;
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+input{
+    all: unset;
+    height: 40px;
+    padding: 8px;
+    width: 500px;
+    border-bottom:solid lightgray 1px ;
+}
+
+.ListContent{
+    
+    width: 500px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    font-size: 24px;
+    color: rgb(59, 59, 59);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+li p{
+   padding: 16px; 
+   width: 200px;
+   border-radius: 10px;
+   font-size: 16px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li:hover{
+    cursor: pointer;
+}
+li button{
+    all: unset;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(190, 0, 0);
+    color: white;
+
+}
+.filter{
+    width: 500px;
+    margin: auto;
+ box-shadow: lightgray 0px 0px 10px;
+    padding-left: 16px;
+    color: rgb(134, 134, 134);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.filter p{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.filter ul{
+    display: flex;
+    margin-left: 40px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.filter h6{
+    border: solid lightgray 1px;
+    padding: 8px;
+}
